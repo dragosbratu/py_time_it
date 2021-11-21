@@ -1,3 +1,15 @@
+"""
+
+This module measure the execution time in Python.
+Author Dragos Bratu
+Date 21.11.21
+
+"""
+
+__all__ = ['_enter_', '_exit_']
+__version__ = '0.1'
+__author__ = 'Dragos Bratu'
+
 import time
    
 class timeit():
